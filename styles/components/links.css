@@ -1,28 +1,13 @@
 /* Links */
 .links-container {
-  margin-top: 8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
+  margin-top: 5rem;
+
   font-size: 2rem;
   text-transform: uppercase;
   visibility: hidden;
 }
-.links-container a {
-  text-decoration: none;
-  color: var(--secondary-color);
 
-  padding: 1rem;
-  box-shadow: 0 0 5px var(--tertiary-color), 0 0 25px var(--tertiary-color);
-}
-
-.links-container a:hover {
-  box-shadow: 0 0 5px var(--tertiary-color), 0 0 25px var(--tertiary-color),
-    0 0 50px var(--tertiary-color), 0 0 100px var(--tertiary-color);
-  cursor: pointer;
-}
-.links-container button {
+#resume {
   font-size: 2rem;
   text-transform: uppercase;
   border-style: none;
@@ -30,11 +15,12 @@
   font-family: var(--ff-clash);
   padding: 1rem;
   background-color: var(--button-bg);
-  box-shadow: 0 0 5px, 0 0 25px var(--button-primary-shadow);
+  box-shadow: 0 0 5px, 0 0 25px var(--button-shadow);
+  text-decoration: none;
 }
-.links-container button:hover {
-  box-shadow: 0 0 5px var(--button-hover-shadow),
-    0 0 25px var(--button-hover-shadow), 0 0 50px var(--button-hover-shadow);
-  color: var(--button-hover-text-color);
+#resume:hover {
+  box-shadow: 0 0 5px var(--button-shadow), 0 0 25px var(--button-shadow),
+    0 0 50px var(--button-shadow), 0 0 100px var(--button-shadow);
+
   cursor: pointer;
 }

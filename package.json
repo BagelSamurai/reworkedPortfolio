@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@splinetool/runtime": "^1.0.17",
+    "@studio-freight/lenis": "^1.0.33",
     "gsap": "^3.12.4"
   }
 }

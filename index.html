@@ -20,16 +20,19 @@
       <img id="my-image" src="./public/me.png" alt="" />
     </section>
     <section class="links-container">
-      <a href="#about">about</a>
-      <a href="#projects" id="projects">projects</a>
-      <a href="#contact" id="contact">contact</a>
-      <button id="theme-toggler">Theme</button>
+      <a
+        href="./public/rohanResumeFinal_censored.pdf"
+        target="_blank"
+        id="resume"
+        >Resume</a
+      >
     </section>
-
+    <a id="scroll-btn"></a>
     <section id="about">
       <h1>About Me</h1>
       <div class="about__container">
         <!-- About:1 -->
+
         <div class="about__image1"><img src="./public/cat.png" alt="" /></div>
         <div class="about__content1">
           Hi there! I am Rohan Chaudhary and I am currently a Sophomore at the
@@ -38,7 +41,9 @@
           programming journey began when my fifth grade summer camp counselor
           put me in a coding class where I learnt HTML and Scratch!
         </div>
+
         <div class="about__image2">
+          <!-- About 2 -->
           <img src="./public/controller.png" alt="" />
         </div>
         <div class="about__content2">
@@ -63,20 +68,131 @@
               <li class="skill__item">HTML/CSS</li>
               <li class="skill__item">Javascript</li>
               <li class="skill__item">ReactJS</li>
-              <li class="skill__item">C++</li>
+              <li class="skill__item">Node.js/Express.js</li>
+              <li class="skill__item">MongoDB</li>
             </ul>
             <ul class="skill__ul">
               <li class="skill__item">Excel</li>
               <li class="skill__item">SQL</li>
               <li class="skill__item">Python</li>
               <li class="skill__item">Figma</li>
+              <li class="skill__item">C++</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
     <section id="projects"></section>
+
+    <!-- Scripts -->
+
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+
+    <script>
+      gsap.to(".hero-text", {
+        ease: "bounce.in",
+        delay: 2,
+        duration: 2,
+        clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+        visibility: "visible",
+        y: 0,
+
+        onComplete: function () {
+          gsap.to("#my-image", {
+            ease: "bounce.in",
+            duration: 1,
+            clipPath: "circle( 100%)",
+            visibility: "visible",
+            y: 0,
+
+            onComplete: function () {
+              gsap.to(".links-container", {
+                ease: "bounce.in",
+                duration: 1,
+                clipPath: "circle(100%)",
+                visibility: "visible",
+                y: 0,
+                onComplete: function () {
+                  gsap.to("#scroll-btn", {
+                    ease: "bounce.in",
+                    duration: 4,
+                    visibility: "visible",
+                    y: 0,
+                  });
+                },
+              });
+            },
+          });
+        },
+      });
+
+      function animateOnScroll(triggerElement, animationProperties) {
+        gsap.from(triggerElement, {
+          scrollTrigger: {
+            trigger: triggerElement,
+            start: "top center",
+            end: "center center",
+            toggleActions: "play none none reverse",
+            scrub: 1,
+          },
+          ...animationProperties,
+        });
+      }
+
+      // Call the function for different elements
+      animateOnScroll(".about__image1", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content1", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__image2", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content2", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+      animateOnScroll(".about__image3", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content3", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+      animateOnScroll(".about__image4", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content4", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+    </script>
+    <!-- Main -->
     <script type="module" src="./src/main.js"></script>
+    <!-- Particles -->
+
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
