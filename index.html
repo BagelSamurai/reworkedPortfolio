@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rohan | Webfolio</title>
     <link
-      href="https://api.fontshare.com/v2/css?f[]=bespoke-stencil@500&f[]=clash-display@700&display=swap"
+      href="https://api.fontshare.com/v2/css?f[]=archivo@400&f[]=clash-display@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="preloader">
@@ -17,18 +16,74 @@
     </div>
     <div id="particles-js"></div>
     <section class="hero">
-      <h1 class="hero-text"></h1>
-      <img src="./public/me.png" alt="" />
+      <h1 class="hero-text">ROHAN CHAUDHARY</h1>
+      <img id="my-image" src="./public/me.png" alt="" />
     </section>
-    <div class="links-container">
+    <section class="links-container">
       <a href="#about">about</a>
       <a href="#projects" id="projects">projects</a>
       <a href="#contact" id="contact">contact</a>
       <button id="theme-toggler">Theme</button>
-    </div>
+    </section>
 
-    <script type="module" src="./main.js"></script>
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="about__container">
+        <!-- About:1 -->
+        <div class="about__image1"><img src="./public/cat.png" alt="" /></div>
+        <div class="about__content1">
+          Hi there! I am Rohan Chaudhary and I am currently a Sophomore at the
+          University of Houston. My Academic Journey has led me to pursue a
+          double major in B.S. Computer Science and Mathematics. <br />My
+          programming journey began when my fifth grade summer camp counselor
+          put me in a coding class where I learnt HTML and Scratch!
+        </div>
+        <div class="about__image2">
+          <img src="./public/controller.png" alt="" />
+        </div>
+        <div class="about__content2">
+          In my free time I love to cook, enjoy nature while playing Pokemon Go,
+          play Valorant (Ascendant 2 peak Raze main), and game on my PS5!
+        </div>
+        <div class="about__image3">
+          <img src="./public/keyboard.png" alt="" />
+        </div>
+        <div class="about__content3">
+          I am currently learning <strong>typescript.</strong><br />
+          I am seeking internships too, so I hope I can leave an impression upon
+          you! 👋
+        </div>
+        <div class="about__image4">
+          <img src="./public/books.png" alt="" />
+        </div>
+        <div class="about__content4">
+          My Skills
+          <div class="skill__container">
+            <ul class="skill__ul">
+              <li class="skill__item">HTML/CSS</li>
+              <li class="skill__item">Javascript</li>
+              <li class="skill__item">ReactJS</li>
+              <li class="skill__item">C++</li>
+            </ul>
+            <ul class="skill__ul">
+              <li class="skill__item">Excel</li>
+              <li class="skill__item">SQL</li>
+              <li class="skill__item">Python</li>
+              <li class="skill__item">Figma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects"></section>
+    <script type="module" src="./src/main.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script type="text/javascript">
       particlesJS("particles-js", {
         particles: {
