@@ -1,3 +1,5 @@
+// Preloader and typewriter effect
+
 document.addEventListener("DOMContentLoaded", function () {
   const preloader = document.getElementById("preloader");
   const div = document.querySelector(".hero-text");
@@ -21,3 +23,14 @@ const typewriterEffect = (element, text, i = 0) => {
     setTimeout(() => typewriterEffect(element, text, i + 1), 150);
   }
 };
+
+// Theme switcher
+const themeButton = document.getElementById("theme-toggler");
+const body = document.body;
+themeButton.addEventListener("click", function () {
+  if (body.classList.contains("dark-theme")) {
+    body.classList.remove("dark-theme");
+  } else {
+    body.classList.add("dark-theme");
+  }
+});
