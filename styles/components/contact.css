@@ -1,18 +1,5 @@
 #contact {
-  text-align: center;
-  font-family: var(--ff-archivo);
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
-}
-
-#contact h1 {
-  font-family: var(--ff-clash);
-  font-size: 3rem;
+  padding-right: 10rem;
 }
 
 .contact__link {

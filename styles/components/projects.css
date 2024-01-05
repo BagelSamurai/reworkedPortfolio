@@ -24,6 +24,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .container section img {
