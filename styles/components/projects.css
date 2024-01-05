@@ -1,5 +1,5 @@
 #projects {
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   text-align: center;
   margin-top: 30rem;
@@ -15,7 +15,7 @@
 
 .container {
   display: flex;
-  width: 600vw;
+  width: 700vw;
 }
 .container section {
   width: 100vw;
