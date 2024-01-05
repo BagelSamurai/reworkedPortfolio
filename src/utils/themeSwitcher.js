@@ -14,6 +14,7 @@ const darkMode = () => {
       img.src = "./public/webfolio_dark.png";
     } else {
       localStorage.removeItem("theme");
+      localStorage.removeItem("imageTheme");
       document.body.classList.remove("dark-mode"); // Remove specific theme class
       img.src = "./public/webfolio_light.png";
     }
