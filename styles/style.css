@@ -13,7 +13,16 @@
   --ff-archivo: "Archivo", sans-serif;
 }
 /* dark theme */
+.dark-mode {
+  --primary-color: #0d1b1e;
+  --secondary-color: #ffb5a7;
+  --tertiary-color: #fcd5ce;
 
+  --button-bg: #f9dcc4;
+  --button-shadow: #fec89a;
+
+  --button-text-color: #0d1b1e;
+}
 /* Content */
 * {
   margin: 0;
@@ -28,9 +37,6 @@ body {
   font-family: var(--ff-clash);
 }
 
-section {
-  margin-top: 20rem;
-}
 strong {
   color: var(--tertiary-color);
 }

@@ -1,0 +1,38 @@
+#projects {
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  margin-top: 30rem;
+  text-align: center;
+  font-family: var(--ff-archivo);
+  font-size: 1.5rem;
+}
+#projects h1 {
+  font-family: var(--ff-clash);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  display: flex;
+  width: 500vw;
+}
+.container section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container section img {
+  max-height: 50%;
+  max-width: 50%;
+}
+.container section h2 {
+  font-family: var(--ff-clash);
+}
+.container section p {
+  max-width: 800px;
+}

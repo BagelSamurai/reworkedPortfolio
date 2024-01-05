@@ -1,0 +1,34 @@
+#contact {
+  text-align: center;
+  font-family: var(--ff-archivo);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+#contact h1 {
+  font-family: var(--ff-clash);
+  font-size: 3rem;
+}
+
+.contact__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.contact__link a {
+  fill: var(--button-bg);
+}
+#footer {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-top: 0.5em;
+  user-select: none;
+  padding: 10px;
+}
