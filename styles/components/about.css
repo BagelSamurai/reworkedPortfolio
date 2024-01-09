@@ -17,8 +17,7 @@
   grid-template-areas:
     "image1 content1"
     "content2 image2"
-    "image3 content3"
-    "content4 image4";
+    "image3 content3";
   place-items: center;
 }
 
@@ -34,10 +33,6 @@
   grid-area: image3;
 }
 
-.about__image4 {
-  grid-area: image4;
-}
-
 .about__content1 {
   grid-area: content1;
 }
@@ -48,10 +43,6 @@
 
 .about__content3 {
   grid-area: content3;
-}
-
-.about__content4 {
-  grid-area: content4;
 }
 
 .about__container img {
@@ -65,23 +56,4 @@
 .about__image3 img {
   max-height: 100%;
   max-width: 100%;
-}
-
-.skill__container {
-  display: flex;
-}
-.skill__ul {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  padding: 0px 2rem;
-  flex: 1;
-}
-.skill__item::before {
-  content: "";
-  margin-left: 0.5em;
-}
-
-.skill__item::marker {
-  content: "=>";
 }
