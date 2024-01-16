@@ -10,29 +10,86 @@
 #projects h1 {
   font-family: var(--ff-clash);
   font-size: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .container {
   display: flex;
   width: 700vw;
 }
-.container section {
+
+.project-section {
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
+}
+.project-section h2 {
+  margin-bottom: 5rem;
 }
 
+.card {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 .container section img {
-  max-height: 50%;
-  max-width: 50%;
+  max-height: 40%;
+  max-width: 40%;
 }
 .container section h2 {
   font-family: var(--ff-clash);
 }
 .container section p {
-  max-width: 800px;
+  max-width: 600px;
+}
+
+#webfolio-image {
+  max-height: 25%;
+  max-width: 25%;
+}
+#covid-img {
+  max-height: 30%;
+  max-width: 30%;
+}
+
+.tags {
+  margin-top: 3rem;
+}
+
+.tags-list {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.tag-item {
+  list-style: none;
+  background-color: var(--button-bg);
+  color: var(--button-text-color);
+  padding: 1rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-family: var(--ff-clash);
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 1rem;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+  font-family: var(--ff-clash);
+  letter-spacing: 0.1rem;
+}
+.scroll-right {
+  background-color: var(--scroll-color);
+  padding: 0.3rem;
+  border-radius: 50px;
+}
+
+#contact {
+  width: 100vw;
 }

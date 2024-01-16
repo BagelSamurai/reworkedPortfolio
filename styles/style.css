@@ -8,7 +8,7 @@
   --button-shadow: #b48954;
 
   --button-text-color: #f2e0cf;
-
+  --scroll-color: #efefef;
   --ff-clash: "Clash Display";
   --ff-archivo: "Archivo", sans-serif;
 }
@@ -20,7 +20,7 @@
 
   --button-bg: #f9dcc4;
   --button-shadow: #fec89a;
-
+  --scroll-color: #fcd5ce;
   --button-text-color: #0d1b1e;
 }
 /* Content */
