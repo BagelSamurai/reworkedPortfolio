@@ -8,6 +8,7 @@
   visibility: hidden;
 }
 
+.project-link,
 #resume,
 #theme-toggle {
   font-size: 2rem;
@@ -17,13 +18,19 @@
   font-family: var(--ff-clash);
   padding: 1rem;
   background-color: var(--button-bg);
-  box-shadow: 0 0 5px, 0 0 25px var(--button-shadow);
+  box-shadow:
+    0 0 5px,
+    0 0 25px var(--button-shadow);
   text-decoration: none;
 }
+a:hover,
 #resume:hover,
 #theme-toggle:hover {
-  box-shadow: 0 0 5px var(--button-shadow), 0 0 25px var(--button-shadow),
-    0 0 50px var(--button-shadow), 0 0 100px var(--button-shadow);
+  box-shadow:
+    0 0 5px var(--button-shadow),
+    0 0 25px var(--button-shadow),
+    0 0 50px var(--button-shadow),
+    0 0 100px var(--button-shadow);
 
   cursor: pointer;
 }
