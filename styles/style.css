@@ -34,7 +34,7 @@
 
 body {
   background-color: var(--bg-color);
-  padding: 0 15rem;
+  padding: 0 12rem;
   color: var(--text-color);
   font-family: var(--ff-heading);
 }
