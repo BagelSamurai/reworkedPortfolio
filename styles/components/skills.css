@@ -1,14 +1,8 @@
-.skills {
-  margin-top: 20rem;
-  font-family: var(--ff-archivo);
-  font-size: 1.5rem;
-}
-.skills h1 {
-  font-family: var(--ff-clash);
-  font-size: 3rem;
-  margin-bottom: 3rem;
+#skills h1 {
+  font-family: var(--ff-heading);
+  font-size: 4rem;
   text-align: center;
-  margin: 30rem 0;
+  margin: 5rem 0rem 3rem 0;
 }
 
 .skill__container {
@@ -16,20 +10,20 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .skill__ul {
   list-style: none;
   display: flex;
   padding: 1rem;
-  gap: 4rem;
+  gap: 3rem;
 }
 .skill__item {
   border-radius: 20px;
   background-color: #ebebeb;
-  box-shadow: 0 0 20px var(--secondary-color);
-  padding: 0.5rem 1rem;
+  box-shadow: 0 0 20px var(--tertiary-color);
+  padding: 0.3rem 0.8rem;
 }
 .skill__image {
   max-width: 100px;
