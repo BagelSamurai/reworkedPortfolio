@@ -7,8 +7,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .on-scroll {
   position: sticky;
