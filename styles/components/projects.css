@@ -1,0 +1,129 @@
+#projects {
+  margin-top: 10rem;
+  text-align: center;
+  font-family: var(--ff-text);
+  font-size: 1.5rem;
+}
+#projects h1 {
+  font-family: var(--ff-heading);
+  font-size: 4rem;
+}
+#projects h2 {
+  font-family: var(--ff-heading);
+  font-size: 2rem;
+  padding: 1rem;
+}
+@media (min-width: 475px) {
+  .project__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 640px) {
+  .project__container {
+    overflow: hidden;
+
+    color: var(--text-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "image1 content1"
+      "content2 image2"
+      "image3 content3"
+      "content4 image4"
+      "image5 content5"
+      "content6 image6"
+      "image7 content7";
+    place-items: center;
+  }
+
+  .project__image1 {
+    grid-area: image1;
+  }
+
+  .project__image2 {
+    grid-area: image2;
+  }
+
+  .project__image3 {
+    grid-area: image3;
+  }
+
+  .project__image4 {
+    grid-area: image4;
+  }
+
+  .project__image5 {
+    grid-area: image5;
+  }
+
+  .project__image6 {
+    grid-area: image6;
+  }
+  .project__image7 {
+    grid-area: image7;
+  }
+
+  .project__content1 {
+    grid-area: content1;
+  }
+
+  .project__content2 {
+    grid-area: content2;
+  }
+
+  .project__content3 {
+    grid-area: content3;
+  }
+
+  .project__content4 {
+    grid-area: content4;
+  }
+
+  .project__content5 {
+    grid-area: content5;
+  }
+
+  .project__content6 {
+    grid-area: content6;
+  }
+  .project__content7 {
+    grid-area: content7;
+  }
+
+  .project__container img {
+    max-height: 90%;
+    max-width: 90%;
+  }
+  .project__container div {
+    margin-top: 5rem;
+  }
+
+  .project__list {
+    margin-top: 2rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project__list li {
+    color: var(--secondary-color);
+    background-color: grey;
+
+    padding: 10px;
+    border-radius: 50px;
+    background: #f4f0ed;
+    box-shadow: 20px 20px 50px #cfccc9, -20px -20px 50px #ffffff;
+  }
+  #project-link {
+    text-decoration: none;
+
+    color: var(--secondary-color);
+  }
+  #project-link:hover {
+    color: var(--tertiary-color);
+  }
+}

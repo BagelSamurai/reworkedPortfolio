@@ -1,0 +1,34 @@
+/* Hero */
+.hero {
+  margin-top: 2rem;
+}
+.hero h1 {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10rem;
+  background: -webkit-linear-gradient(
+    var(--secondary-color),
+    var(--tertiary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero span {
+  margin-top: 1rem;
+  display: flex;
+  font-family: var(--ff-text);
+  font-size: 2rem;
+  text-align: center;
+  font-color: var(--tertiary-color);
+}
+
+/* .hero-text {
+  visibility: hidden;
+}
+#my-image {
+  visibility: hidden;
+} */

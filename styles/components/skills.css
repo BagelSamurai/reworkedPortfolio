@@ -1,0 +1,31 @@
+#skills h1 {
+  font-family: var(--ff-heading);
+  font-size: 4rem;
+  text-align: center;
+  margin: 5rem 0rem 3rem 0;
+}
+
+.skill__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.skill__ul {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  gap: 3rem;
+}
+.skill__item {
+  border-radius: 20px;
+  background-color: #ebebeb;
+  box-shadow: 0 0 20px var(--tertiary-color);
+  padding: 0.3rem 0.8rem;
+}
+.skill__image {
+  max-width: 100px;
+  max-height: 100px;
+}
