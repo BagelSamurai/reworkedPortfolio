@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan | Webfolio</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=synonym@500&f[]=hind@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <div id="preloader">
+      <img src="/public/infinite-spinner.svg" alt="Loader" id="loader" />
+    </div> -->
+    <div id="particles-js"></div>
+    <section class="hero">
+      <h1 class="hero-text">
+        ROHAN CHAUDHARY
+        <span>Just Another Computer Science Student.</span>
+      </h1>
+    </section>
+    <section class="links-container">
+      <a
+        class="resume-link"
+        href="https://drive.google.com/file/d/18Tf9UNHWofDHfRipX7jcdKYS4j52-DuG/view?usp=sharing"
+        target="_blank"
+        id="resume"
+        >Resume</a
+      >
+      <a class="page-link" href="#about">About</a>
+      <a class="page-link" href="#skills">Skills</a>
+      <a class="page-link" href="#projects">Projects</a>
+      <a class="page-link" href="#solutions">Solutions</a>
+      <a class="page-link" href="#contact">Contact</a>
+    </section>
+
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="about__container">
+        <!-- About:1 -->
+
+        <div class="about__image1"><img src="/public/me.png" alt="" /></div>
+        <div class="about__content1">
+          Hi there! I am Rohan Chaudhary and I am currently a Sophomore at the
+          University of Houston. My Academic Journey has led me to pursue a
+          double major in B.S. Computer Science and Mathematics. <br />My
+          programming journey began when my fifth grade summer camp counselor
+          put me in a coding class where I learnt HTML and Scratch!
+        </div>
+
+        <div class="about__image2">
+          <!-- About 2 -->
+          <img src="/public/controller.png" alt="" />
+        </div>
+        <div class="about__content2">
+          In my free time I love to cook, enjoy nature while playing Pokemon Go,
+          play Valorant (Ascendant 2 peak Raze main), and game on my PS5!
+        </div>
+        <div class="about__image3">
+          <img src="/public/keyboard.png" alt="" />
+        </div>
+        <div class="about__content3">
+          I am currently learning <strong>typescript.</strong><br />
+          I am seeking internships too, so I hope I can leave an impression upon
+          you! 👋
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1>My Skills</h1>
+      <div class="skill__container">
+        <ul class="skill__ul skills1">
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+              <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+              <path
+                fill="#FFF"
+                d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"
+              ></path>
+              <path
+                fill="#EEE"
+                d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+              <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+              <path
+                fill="#FFF"
+                d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"
+              ></path>
+              <path
+                fill="#EEE"
+                d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+              <path
+                fill="#000001"
+                d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#80deea"
+                d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z"
+              ></path>
+              <path
+                fill="#80deea"
+                d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z"
+              ></path>
+              <path
+                fill="#80deea"
+                d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z"
+              ></path>
+              <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#212121"
+                d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#388e3c"
+                d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013"
+              ></path>
+              <path
+                fill="#37474f"
+                d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z"
+              ></path>
+              <path
+                fill="#2e7d32"
+                d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"
+              ></path>
+              <path
+                fill="#4caf50"
+                d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"
+              ></path>
+              <path
+                fill="#37474f"
+                d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#212121"
+                d="M23.697,37.56h1.18c0.84,0,1.631-0.392,2.139-1.061l7.485-9.847l7.485,9.847	c0.508,0.668,1.299,1.061,2.139,1.061h1.18L35.756,25l9.121-12h-1.18c-0.84,0-1.631,0.392-2.139,1.061L34.5,23.347l-7.059-9.287	C26.933,13.392,26.142,13,25.302,13h-1.18l9.121,12L23.697,37.56z"
+              ></path>
+              <path
+                fill="#212121"
+                d="M24,26v-3c0-6.675-5.945-11.961-12.829-10.852C5.812,13.011,2,17.857,2,23.284L2,24v2v0.142	c0,6.553,4.777,11.786,10.868,11.858c5.092,0.06,9.389-3.344,10.707-7.999h-1.028c-0.62,0-1.182,0.355-1.451,0.913	c-1.739,3.595-5.789,5.862-10.228,4.842C6.776,34.815,4,30.981,4,26.783V26H24z M4,23.71c0-4.708,2.804-8.557,6.924-9.478	C16.798,12.92,22,17.352,22,23v1H4V23.71z"
+              ></path>
+            </svg>
+          </li>
+        </ul>
+        <ul class="skill__ul skills2">
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#5d4037"
+                d="M42,17.3C42,37.8,24,44,24,44S6,37.8,6,17.3c0-2.5,0.2-4.6,0.4-6.3c0.3-2.5,2-4.5,4.4-5.1 C13.9,5,18.8,4,24,4s10.1,1,13.3,1.9c2.4,0.6,4.1,2.7,4.4,5.1C41.8,12.7,42,14.9,42,17.3z"
+              ></path>
+              <path
+                fill="#4caf50"
+                d="M24,7c4.9,0,9.5,1,12.5,1.8c1.2,0.3,2,1.3,2.2,2.6c0.2,1.9,0.3,3.9,0.3,5.9c0,15.6-11.5,21.9-15,23.4 c-3.5-1.6-15-7.9-15-23.4c0-2,0.1-4,0.3-5.9c0.1-1.3,1-2.3,2.2-2.6C14.5,8,19.1,7,24,7 M24,4c-5.2,0-10.1,1-13.3,1.9 C8.4,6.5,6.6,8.6,6.4,11C6.2,12.7,6,14.9,6,17.3C6,37.8,24,44,24,44s18-6.2,18-26.7c0-2.5-0.2-4.6-0.4-6.3c-0.3-2.5-2-4.5-4.4-5.1 C34.1,5,29.2,4,24,4L24,4z"
+              ></path>
+              <path fill="#dcedc8" d="M23 28H25V36H23z"></path>
+              <path
+                fill="#4caf50"
+                d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3l1,3c1.7-1.5,5-4.8,5-10C30,15,24,10,24,10z"
+              ></path>
+              <path
+                fill="#81c784"
+                d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3V10z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0,0,255.99057,255.99057"
+            >
+              <g
+                fill="#092e20"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(10.66667,10.66667)">
+                  <path
+                    d="M11,3v5.1582c-0.347,-0.141 -1.09584,-0.1582 -1.46484,-0.1582c-2.776,0 -5.3457,1.306 -5.3457,5c0,4.42 3.48055,5 5.81055,5c0.92,0 3,-0.09086 4,-0.38086v-14.61914zM16,3v3h3v-3zM16,8v8.70117c0,1.516 -0.922,3.094 -3,4l2.85938,1.29492c2.906,-1 3.14063,-4.29492 3.14063,-5.29492v-8.70117zM9.9707,10.55078c0.32,0 0.6793,0.05867 1.0293,0.13867v4.70313c-0.35,0.08 -0.7093,0.14063 -1.0293,0.14063c-1.31,0 -2.58008,-0.4132 -2.58008,-2.5332c0,-2.12 1.27008,-2.44922 2.58008,-2.44922z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#00acc1"
+                d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect>
+              <polygon
+                fill="#fff"
+                points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"
+              ></polygon>
+              <path
+                fill="#fff"
+                d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <img class="skill__image" src="./public/jest.svg" alt="" />
+          </li>
+        </ul>
+        <ul class="skill__ul skills3">
+          <!-- <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#03A9F4"
+                d="M40,20c0.391-1.735-0.092-3.78-2.5-6c-3.914,3.543-2.795,7.227-1.5,9c0,0-0.166,1-4,1S2,24,2,24S0.167,40,18,40c15.593,0,19.973-12.003,20.828-15.076C39.182,24.972,39.579,25.003,40,25c2.147-0.017,4.93-1.171,6-5.484C43.162,18.533,41.339,18.978,40,20z"
+              ></path>
+              <path
+                fill="#0288D1"
+                d="M2.165,28C2.9,32.739,5.983,40,18,40c12.185,0,17.523-7.33,19.682-12H2.165z"
+              ></path>
+              <path
+                fill="#81D4FA"
+                d="M19.812,39.938C18.892,39.616,14.74,38.848,14,33c-4.209,1.863-7.938,1.375-9.579,1.008C6.583,37.237,10.591,40,18,40C18.623,40,19.224,39.976,19.812,39.938z"
+              ></path>
+              <path
+                fill="#FFF"
+                d="M18 30A2 2 0 1 0 18 34A2 2 0 1 0 18 30Z"
+              ></path>
+              <path
+                fill="#37474F"
+                d="M14.914,33.597c0.224,0.505,0.02,1.162-0.51,1.318c-3.301,0.973-6.146,1.102-8.297,1.102c-0.644-0.619-1.194-1.279-1.656-1.963c2.585,0,6.71-0.12,9.144-0.966C14.117,32.906,14.69,33.09,14.914,33.597z M2,27c0,0,1.875,0.125,3-1c1.875,1.688,5.94,1.088,7,0c1.063,1.688,6.938,1.375,8,0c1.25,1.438,6.625,1.75,8,0c0.479,1.461,6.819,1.874,8,0c1.061,1.088,5.063,1.938,7.311,0C43.875,27.188,46,27,46,27v1H2 M17,32c0,0.552,0.448,1,1,1s1-0.448,1-1s-0.448-1-1-1S17,31.448,17,32z"
+              ></path>
+              <path
+                fill="#01579B"
+                d="M11,24H6v-5h5V24z M21,19h-5v5h5V19z M31,19h-5v5h5V19z M16,14h-5v5h5V14z M26,14h-5v5h5V14z"
+              ></path>
+              <path
+                fill="#0288D1"
+                d="M16,24h-5v-5h5V24z M26,19h-5v5h5V19z M26,9h-5v5h5V9z M21,14h-5v5h5V14z"
+              ></path>
+            </svg>
+          </li> -->
+
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#0277BD"
+                d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"
+              ></path>
+              <path
+                fill="#FFC107"
+                d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"
+              ></path>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#e64a19"
+                d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"
+              ></path>
+              <path
+                fill="#7c4dff"
+                d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"
+              ></path>
+              <path
+                fill="#66bb6a"
+                d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"
+              ></path>
+              <path
+                fill="#ff7043"
+                d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"
+              ></path>
+              <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+            </svg>
+          </li>
+          <li class="skill__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#00549d"
+                fill-rule="evenodd"
+                d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z"
+                clip-rule="evenodd"
+              ></path>
+              <path
+                fill="#0086d4"
+                fill-rule="evenodd"
+                d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z"
+                clip-rule="evenodd"
+              ></path>
+              <path
+                fill="#fff"
+                fill-rule="evenodd"
+                d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z"
+                clip-rule="evenodd"
+              ></path>
+              <path
+                fill="#0075c0"
+                fill-rule="evenodd"
+                d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z"
+                clip-rule="evenodd"
+              ></path>
+              <path
+                fill="#fff"
+                fill-rule="evenodd"
+                d="M31 21H33V27H31zM38 21H40V27H38z"
+                clip-rule="evenodd"
+              ></path>
+              <path
+                fill="#fff"
+                fill-rule="evenodd"
+                d="M29 23H35V25H29zM36 23H42V25H36z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="project__container">
+        <!-- Project:1 -->
+        <div class="project__image1">
+          <img src="/public/skystore.png" alt="" />
+        </div>
+
+        <div class="project__content1">
+          <h2>
+            SkyStore
+            <a
+              id="project-link"
+              href="https://skystore-sigma.vercel.app/"
+              target="_blank"
+            >
+              [LINK]</a
+            >
+          </h2>
+          <p>
+            SkyStore is a robust cloud storage application built with Next.js
+            14, offering users a sophisticated and user-friendly platform for
+            managing their digital files. The application supports user
+            authentication through Clerk, utilizes Shadcn for a sleek and
+            responsive design, employs Firebase for storage and database
+            functionalities, and integrates drag-and-drop capabilities for
+            effortless file management.
+          </p>
+          <ul class="project__list">
+            <li>Next.js</li>
+            <li>TailwindCSS</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+
+        <div class="project__image2">
+          <!-- Project 2 -->
+          <img src="/public/rice.png" alt="" />
+        </div>
+        <div class="project__content2">
+          <h2>
+            Rice Datathon 2024
+            <a
+              id="project-link"
+              href="https://devpost.com/software/chevron-chefs"
+              target="_blank"
+            >
+              [LINK]</a
+            >
+          </h2>
+          <p>
+            Rice Datathon was my first data science hackathon where I
+            participated in a team of 3! I specifically participated in the
+            Chevron track where we had to predict peak oil rates. I used python
+            for everything from data wrangling to final modelling. I ended up
+            winning a company-sponsored track too!
+          </p>
+          <ul class="project__list">
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Seaborn</li>
+            <li>Scikit-Learn</li>
+          </ul>
+        </div>
+        <!-- Project 3 -->
+        <div class="project__image3">
+          <img src="/public/unilink.png" alt="" />
+        </div>
+        <div class="project__content3">
+          <h2>
+            CaseQuest
+            <a
+              id="project-link"
+              href="https://drive.google.com/drive/folders/1ZAuLbe56QDPQNrQXVLx3AKzM0WtTtRpr"
+              target="_blank"
+            >
+              [LINK]</a
+            >
+          </h2>
+          <p>
+            Case Quest was a hackthon held by CougarCS and MISSO Organizations
+            at the University of Houston. The goal of the hackathon was to work
+            in a team of Computer Science and Business Professionals to develop
+            an online marketplace for students. To achieve this we used figma to
+            create the working prototype, system design and userflow. I ended up
+            winning third-place overall!
+          </p>
+          <ul class="project__list">
+            <li>Figma</li>
+            <li>System Design</li>
+          </ul>
+        </div>
+        <!-- Project:4 -->
+        <div class="project__image4">
+          <img src="/public/Pokedex.png" alt="" />
+        </div>
+
+        <div class="project__content4">
+          <h2>
+            Pokedex
+            <a
+              id="project-link"
+              href="https://rohanpokedex.netlify.app/"
+              target="_blank"
+            >
+              [LINK]</a
+            >
+          </h2>
+
+          <p>
+            Pokedex is a catalogue of all the pokémon featured in the Pokémon
+            video game, anime and manga series. <br />This Pokedex was a
+            solo-project created using React and Typescript. I learnt the basics
+            of React, Typescript and APIs. I used tanstack query to fetch the
+            pokemon and cache them.
+          </p>
+          <ul class="project__list">
+            <li>React</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+
+        <div class="project__image5">
+          <!-- Project 5 -->
+          <img id="covid-img" src="/public/covid19.png" alt="" />
+        </div>
+        <div class="project__content5">
+          <h2>COVID-19 Analysis</h2>
+          <p>
+            Performed analysis of Covid-19 data set of the United States.
+            <br />This group project was part of the Data Science 1 Curriculum.
+            Performed exploratory data analysis, regression, classification, and
+            outlier detection.
+          </p>
+          <ul class="project__list">
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Seaborn</li>
+            <li>Scikit-Learn</li>
+          </ul>
+        </div>
+        <!-- Project 6 -->
+        <div class="project__image6">
+          <img src="/public/ShahiKhaana.png" alt="" />
+        </div>
+        <div class="project__content6">
+          <h2>
+            Shahi Khaana
+            <a
+              id="project-link"
+              href="https://shahi-khaana.netlify.app/"
+              target="_blank"
+            >
+              [LINK]</a
+            >
+          </h2>
+          <p>
+            Shahi Khaana is a responsive Indian food ordering website! <br />
+            Shahi Khaana was designed to display the culinary magnificence of
+            the Indian cuisine. This project was my first play with animations
+            using AOS library.
+          </p>
+          <ul class="project__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>AOS</li>
+          </ul>
+        </div>
+        <!-- Project 7 -->
+        <div class="project__image7">
+          <img id="webfolio-image" src="/public/darth.png" alt="" />
+        </div>
+        <div class="project__content7">
+          <h2>Webfolio</h2>
+          <p>
+            Last but not the least, my portfolio website! <br />This website was
+            built using HTML/CSS, Vanilla JS and GSAP.
+          </p>
+          <ul class="project__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GSAP</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="solutions">
+      <h1>Solutions</h1>
+      <h2>My solved Data structure & Algorithms Problems</h2>
+      <div class="solutions__container">
+        <p>W.I.P.</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Get In Contact</h2>
+      <div class="contact__link">
+        <a href="mailto:rohanc1021@gmail.com" target="_blank"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 16 16"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25v-8.5C0 2.784.784 2 1.75 2ZM1.5 12.251c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V5.809L8.38 9.397a.75.75 0 0 1-.76 0L1.5 5.809v6.442Zm13-8.181v-.32a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25v.32L8 7.88Z"
+            ></path>
+          </svg>
+        </a>
+        <a href="https://github.com/BagelSamurai" target="_blank"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 16 16"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+            ></path></svg
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/rohan-chaudhary-2305a624a/"
+          target="_blank"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+            ></path></svg
+        ></a>
+      </div>
+      <p id="footer">~Rohan Chaudhary~</p>
+    </section>
+
+    <!-- Scripts -->
+
+    <!-- Gsap -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+
+    <script>
+      gsap.to(".hero-text", {
+        ease: "bounce.in",
+        delay: 2,
+        duration: 2,
+        clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+        visibility: "visible",
+        y: 0,
+
+        onComplete: function () {
+          gsap.to("#my-image", {
+            ease: "bounce.in",
+            duration: 1,
+            clipPath: "circle( 100%)",
+            visibility: "visible",
+            y: 0,
+
+            onComplete: function () {
+              gsap.to(".links-container", {
+                ease: "bounce.in",
+                duration: 1,
+                clipPath: "circle(100%)",
+                visibility: "visible",
+                y: 0,
+                onComplete: function () {
+                  gsap.to(".home-scroll", {
+                    ease: "bounce.in",
+                    duration: 4,
+                    visibility: "visible",
+                    y: 0,
+                  });
+                },
+              });
+            },
+          });
+        },
+      });
+
+      function animateOnScroll(triggerElement, animationProperties) {
+        gsap.from(triggerElement, {
+          scrollTrigger: {
+            trigger: triggerElement,
+            start: "top center",
+            end: "center center",
+            toggleActions: "play none none reverse",
+            scrub: 1,
+          },
+          ...animationProperties,
+        });
+      }
+
+      // Call the function for different elements
+      animateOnScroll(".about__image1", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content1", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__image2", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content2", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+      animateOnScroll(".about__image3", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content3", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+      animateOnScroll(".about__image4", {
+        x: "+100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".about__content4", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      animateOnScroll(".skill__container", {
+        x: "-100%",
+        duration: 3,
+        delay: 1,
+      });
+
+      const container = document.querySelector(".container");
+      const sections = gsap.utils.toArray(".container section");
+
+      let scrollTween = gsap.to(sections, {
+        xPercent: -101 * (sections.length - 1),
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".container",
+          pin: true,
+          scrub: 1,
+          end: "+=3000",
+        },
+      });
+    </script> -->
+    <!-- Main -->
+    <script type="module" src="./src/main.js"></script>
+    <!-- Particles -->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      particlesJS("particles-js", {
+        particles: {
+          number: {
+            value: 50,
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+          },
+          color: {
+            value: "#c80f2e",
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 0,
+              color: "#000000",
+            },
+            polygon: {
+              nb_sides: 5,
+            },
+            image: {
+              src: "img/github.svg",
+              width: 100,
+              height: 100,
+            },
+          },
+          opacity: {
+            value: 0.5,
+            random: false,
+            anim: {
+              enable: false,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+          size: {
+            value: 4,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 40,
+              size_min: 0.1,
+              sync: false,
+            },
+          },
+          line_linked: {
+            enable: false,
+            distance: 150,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 6,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200,
+            },
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "repulse",
+            },
+            onclick: {
+              enable: true,
+              mode: "push",
+            },
+            resize: true,
+          },
+          modes: {
+            grab: {
+              distance: 400,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+            push: {
+              particles_nb: 4,
+            },
+            remove: {
+              particles_nb: 2,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+      var count_particles, stats, update;
+      stats = new Stats();
+      stats.setMode(0);
+      stats.domElement.style.position = "absolute";
+      stats.domElement.style.left = "0px";
+      stats.domElement.style.top = "0px";
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector(".js-count-particles");
+      update = function () {
+        stats.begin();
+        stats.end();
+        if (
+          window.pJSDom[0].pJS.particles &&
+          window.pJSDom[0].pJS.particles.array
+        ) {
+          count_particles.innerText =
+            window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
+  </body>
+</html>
